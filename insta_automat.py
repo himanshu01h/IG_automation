@@ -8,10 +8,10 @@ browser.get("https://www.instagram.com")
 sleep(3)
 search_box = browser.find_element("name", "username")
 pass_box = browser.find_element("name", "password")
-for char in "aihype3":       #gives the typing effect
+for char in "Your Ig Username":       #gives the typing effect
     search_box.send_keys(char)
     sleep(0.2)
-for char in "Aihype2005!":
+for char in "Your Ig Password":       #gives the typing effect
     pass_box.send_keys(char)
     sleep(0.1)
 sleep(2)
